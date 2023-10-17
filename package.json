@@ -2,6 +2,7 @@
   "name": "physio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://zoccer99.github.io/physio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -21,13 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm-run-all build:*",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject",
-    "build:css": "node-sass src/ -o src/ ",
-    "watch:css": "npm run build:css && node-sass src/ -o src/ -w -r",
-    "start:js": "react-scripts-ts start",
-    "build:js": "react-scripts-ts build"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +45,7 @@
   },
   "devDependencies": {
     "@types/node-sass": "^4.11.5",
+    "gh-pages": "^6.0.0",
     "node-sass": "^7.0.3",
     "npm-run-all": "^4.1.5"
   }
