@@ -1,36 +1,32 @@
-import React from 'react'
+import React from "react";
+import { EnvelopeAt } from "react-bootstrap-icons";
+import { Telephone } from "react-bootstrap-icons";
+import { Shop } from "react-bootstrap-icons";
 
 type contactProps = {
-  name: string,
-  address: string,
-  telephone: string
-  email: string,
-  imgSrc: any,
-  text: string,
-  subtext?: string
-}
+  name: string;
+  address: string;
+  telephone: string;
+  email: string;
+};
 
 const Contact = (props: contactProps) => {
   return (
-    <>
-    <div className="card mb-3 maxwidth540 ">
-  <div className="row g-0">
-    <div className="col-md-4 d-flex align-items-center">
-      <img src={props.imgSrc} className="img-fluid rounded-start" alt="..." />
-    </div>
-    <div className="col-md-8">
-      <div className="card-body">
-        <h5 className="card-title display-5">{props.name}</h5>
-        <p className="card-text">{props.text}</p>
-        <p className="card-text"><small className="text-muted">{props.subtext}</small></p>
+    <div className="container card shadow p-3 ">
+      <div className="row">
+        <Shop className="d-none d-md-block col-md-4" />
+        <p className="col-12 col-md-8 text-center text-md-start">{props.address}</p>
+      </div>
+      <div className="row">
+        <EnvelopeAt className="d-none d-md-block col-md-4" />
+        <p className="col-12 col-md-8 text-center text-md-start">{props.email}</p>
+      </div>
+      <div className="row">
+        <Telephone className="d-none d-md-block col-md-4" />
+        <p className="col-12 col-md-8 text-center text-md-start">{props.telephone}</p>
       </div>
     </div>
-  </div>
-</div>
-    <div>contact</div>
-    <div>{props.email}</div>
-    </>
-  )
-}
+  );
+};
 
 export default Contact;

@@ -22,7 +22,7 @@ export const About = (props: AboutpropsType) => {
             <Qualifications qualificationsArr={["Manuelle Therapie",
                 "Manuelle Lymphdrainage",
                 "Sportphysiotherapie",
-                "PNF- Propriozeptive Neuromuskuläre Fazilitation – KG Neuro",
+                "Propriozeptive Neuromuskuläre Fazilitation",
                 "Medizinische Trainingstherapie"]} />
         </div>
         </div>
