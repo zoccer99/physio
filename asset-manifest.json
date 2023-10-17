@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/physio/static/css/main.f41a0c81.css",
+    "main.js": "/physio/static/js/main.d60c1018.js",
+    "static/js/787.dcbb48c3.chunk.js": "/physio/static/js/787.dcbb48c3.chunk.js",
+    "static/media/pic_three.jpeg": "/physio/static/media/pic_three.4bffbe572c4f1dd88b5d.jpeg",
+    "static/media/pic_four.jpeg": "/physio/static/media/pic_four.fb2db30ff67ecbaac496.jpeg",
+    "static/media/pic_two.jpeg": "/physio/static/media/pic_two.862951d015154fa7e22f.jpeg",
+    "static/media/pic_one.jpeg": "/physio/static/media/pic_one.7a2294b8a26b264651e1.jpeg",
+    "static/media/Annett_Mraz.jpeg": "/physio/static/media/Annett_Mraz.63998ff553dd3d8ea7c3.jpeg",
+    "index.html": "/physio/index.html",
+    "main.f41a0c81.css.map": "/physio/static/css/main.f41a0c81.css.map",
+    "main.d60c1018.js.map": "/physio/static/js/main.d60c1018.js.map",
+    "787.dcbb48c3.chunk.js.map": "/physio/static/js/787.dcbb48c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f41a0c81.css",
+    "static/js/main.d60c1018.js"
+  ]
+}
