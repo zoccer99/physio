@@ -12,9 +12,8 @@ export const Qualifications = (props: QualificationsTypes) => {
 
   return (
     <div className='item'>
-
       <div className=" box shadow mb-4 qualificationCard">
-        <div className="p-5">
+        <div className="p-1">
           <h4 className="mb-4">Meine Qualifikationen</h4>
           <ul className="list-unstyled list pl-5">
             {qualificationsElements}

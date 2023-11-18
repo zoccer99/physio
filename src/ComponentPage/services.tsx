@@ -2,7 +2,7 @@ import React from "react";
 
 import Service from "../Components/service";
 
-const services = () => {
+const Services = () => {
   return (
     <div className="container text-center">
       <div className="row">
@@ -14,7 +14,7 @@ const services = () => {
         </div>
         <div className="col-12 col-lg-6 d-flex justify-content-center my-5">
           <Service
-            title="PNF- Krankengymnastik auf neurophysiologischer Basis"
+            title="Krankengymnastik"
             text="Die Propriozeptive Neuromuskuläre Fazilitation ( PNF) ist eine Therapiemethode, die in der Physiotherapie angewendet wird. Sie wird bei Patienten aus verschiedenen medizinischen Fachbereichen eingesetzt, bei denen das Bewegungsverhalten aufgrund von Krankheit, Verletzungen, Operationen oder Degeneration beeinträchtigt ist."
           />
         </div>
@@ -55,4 +55,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;
