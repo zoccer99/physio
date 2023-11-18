@@ -13,7 +13,7 @@ type contact2Props = {
 
 export const Contact2 = (props: contact2Props) => {
     return (
-            <div className="col-md-6 col-lg-4 item shadow my-3">
+            <div className="col-md-6 col-lg-4 item shadow my-3 ">
                 <div className="box box-color"><img className="rounded-circle" src={props.picture} />
                     <h3 className="name">{props.name}</h3>
                     <p className="title">{props.function}</p>

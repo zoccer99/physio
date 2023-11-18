@@ -7,7 +7,29 @@
 }
 
 
+body {
+  background-image: url("./Assets/blurry_background.svg");
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  font-family: "Roboto";
 
+}
+
+.ccard {
+  width: 32rem;
+}
+
+.fullscreen-container {
+  width: 100vw; /* 100% der Viewport-Breite (Browserfenster) */
+  height: 100vh; /* 100% der Viewport-Höhe *//* Hintergrundfarbe des Containers */
+  /* Hier kannst du zusätzliche Stile für deinen fullscreen-container hinzufügen */
+}
+
+/* tr {
+  background-color: #87f4b5;
+  
+} */
 
 .box-color {
   background-color:#fff
@@ -15,8 +37,7 @@
 
 /* contact2 */
 
-.team-boxed {
-  }
+
   
   .team-boxed p {
     color:#7d8285;
@@ -136,21 +157,26 @@ li {
     font-style: italic;
 }
 
-body {
-  background-color:  #ff1010;
-}
+
 
 
 .primary-color {
-  background-color: #98CBB4;
+  background-color: #87f4b5;
 }
 
 .secondary-color {
-  background-color: #b4f5df;
+  background-color: #5f634d;
 }
 
 .third-color {
-  background-color: #79bff5;
+  background-color: #d46f0a6c;
+}
+
+.primary-gradient {
+  background: linear-gradient(90deg, hsla(145, 83%, 74%, 1) 0%, hsla(204, 77%, 76%, 1) 100%);
+}
+.bg-standard {
+  background-color: #87f4b5;
 }
 
 @media (max-width:767px) {

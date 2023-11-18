@@ -18,7 +18,7 @@ const Home = () => {
                 lead="Herzlich Willkommen in meiner Praxis für Physiotherapie/Krankengymnastik. Über meine Homepage möchte ich Ihnen einen Einblick in mein Konzept und meine Therapieangebote geben. 
 Für weitere Informationen stehe ich Ihnen gern zur Verfügung."
             />
-            <About heading="Über mich" />
+            {/* <About heading="Über mich" /> */}
             <Contact
                 name="Annett Mraz"
                 address="Physiotherapie Annett Mraz 
@@ -27,7 +27,13 @@ Für weitere Informationen stehe ich Ihnen gern zur Verfügung."
                 telephone="015233786232"
                 email="annett.mraz@web.de"
             />
-            <Services />
+            <div className="mt-4">
+                <div className="d-flex justify-content-center">
+
+                <h1>Unsere Leistungen</h1>
+                </div>
+                <Services />
+            </div>
         </>
     );
 };
