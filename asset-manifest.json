@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/physio/static/css/main.9438fac9.css",
+    "main.css": "/physio/static/css/main.a92afe53.css",
     "main.js": "/physio/static/js/main.47e5c9ca.js",
     "static/js/787.dcbb48c3.chunk.js": "/physio/static/js/787.dcbb48c3.chunk.js",
     "static/media/selfie.jpeg": "/physio/static/media/selfie.56f5f7f7b3b5da27f4ba.jpeg",
@@ -11,12 +11,12 @@
     "static/media/pic_one.jpeg": "/physio/static/media/pic_one.7a2294b8a26b264651e1.jpeg",
     "static/media/Annett_Mraz.jpeg": "/physio/static/media/Annett_Mraz.63998ff553dd3d8ea7c3.jpeg",
     "index.html": "/physio/index.html",
-    "main.9438fac9.css.map": "/physio/static/css/main.9438fac9.css.map",
+    "main.a92afe53.css.map": "/physio/static/css/main.a92afe53.css.map",
     "main.47e5c9ca.js.map": "/physio/static/js/main.47e5c9ca.js.map",
     "787.dcbb48c3.chunk.js.map": "/physio/static/js/787.dcbb48c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9438fac9.css",
+    "static/css/main.a92afe53.css",
     "static/js/main.47e5c9ca.js"
   ]
 }
