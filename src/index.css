@@ -9,7 +9,7 @@
 
 body {
   /* background-image: url("./Assets/blurry_background.svg"); */
-  background: linear-gradient(90deg, hsla(186, 72%, 63%, 1) 0%, hsla(214, 43%, 82%, 1) 48%, hsla(121, 63%, 80%, 1) 100%);
+background: linear-gradient(90deg, hsla(186, 73%, 90%, 1) 0%, hsla(212, 19%, 86%, 1) 48%, hsla(122, 61%, 88%, 1) 100%);
   background-size: cover;
   margin: 0;
   height: 100%;
