@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/physio/static/css/main.44bfbfdf.css",
+    "main.css": "/physio/static/css/main.9438fac9.css",
     "main.js": "/physio/static/js/main.47e5c9ca.js",
     "static/js/787.dcbb48c3.chunk.js": "/physio/static/js/787.dcbb48c3.chunk.js",
     "static/media/selfie.jpeg": "/physio/static/media/selfie.56f5f7f7b3b5da27f4ba.jpeg",
@@ -10,14 +10,13 @@
     "static/media/pic_two.jpeg": "/physio/static/media/pic_two.862951d015154fa7e22f.jpeg",
     "static/media/pic_one.jpeg": "/physio/static/media/pic_one.7a2294b8a26b264651e1.jpeg",
     "static/media/Annett_Mraz.jpeg": "/physio/static/media/Annett_Mraz.63998ff553dd3d8ea7c3.jpeg",
-    "static/media/blurry_background.svg": "/physio/static/media/blurry_background.1f273a1dd97cf79b9060.svg",
     "index.html": "/physio/index.html",
-    "main.44bfbfdf.css.map": "/physio/static/css/main.44bfbfdf.css.map",
+    "main.9438fac9.css.map": "/physio/static/css/main.9438fac9.css.map",
     "main.47e5c9ca.js.map": "/physio/static/js/main.47e5c9ca.js.map",
     "787.dcbb48c3.chunk.js.map": "/physio/static/js/787.dcbb48c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44bfbfdf.css",
+    "static/css/main.9438fac9.css",
     "static/js/main.47e5c9ca.js"
   ]
 }
