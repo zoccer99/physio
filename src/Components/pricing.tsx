@@ -3,7 +3,7 @@ import Table from "react-bootstrap/Table";
 
 export const Pricing = () => {
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 ">
       <div className="rounded table-responsive-sm ">
         <Table className="bg-white " size="" responsive="md">
           <caption>Preisliste</caption>
