@@ -8,6 +8,7 @@ import StyleCard from "../Components/styleCard";
 import { Contact2 } from "../Components/contact2";
 import { WelcomeText } from "../Components/welcomeText";
 import { Gallery } from "../Components/gallery";
+import { Accordeon } from "../Components/accordeon";
 
 const Home = () => {
     return (
@@ -32,7 +33,8 @@ Für weitere Informationen stehe ich Ihnen gern zur Verfügung."
 
                 <h1>Unsere Leistungen</h1>
                 </div>
-                <Services />
+                {/* <Services /> */}
+                <Accordeon />
             </div>
         </>
     );
