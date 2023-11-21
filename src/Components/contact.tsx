@@ -12,23 +12,23 @@ type contactProps = {
 
 const Contact = (props: contactProps) => {
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 ">
       <div className=" card shadow p-3 ">
-        <div className="row">
-          <Shop className="d-none d-md-block col-md-4" />
-          <p className="col-12 col-md-8 text-center text-md-start">
+        <div className="row align-items-center">
+          <Shop className="d-none d-md-block col-md-4 h3" />
+          <p className="col-12 col-md-8 text-center text-md-start h3">
             {props.address}
           </p>
         </div>
-        <div className="row">
-          <EnvelopeAt className="d-none d-md-block col-md-4" />
-          <p className="col-12 col-md-8 text-center text-md-start">
+        <div className="row align-items-center">
+          <EnvelopeAt className="d-none d-md-block col-md-4 h3" />
+          <p className="col-12 col-md-8 text-center text-md-start h3">
             {props.email}
           </p>
         </div>
-        <div className="row">
-          <Telephone className="d-none d-md-block col-md-4" />
-          <p className="col-12 col-md-8 text-center text-md-start">
+        <div className="row align-items-center">
+          <Telephone className="d-none d-md-block col-md-4 h3" />
+          <p className="col-12 col-md-8 text-center text-md-start h3">
             {props.telephone}
           </p>
         </div>

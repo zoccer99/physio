@@ -4,7 +4,7 @@ import { Jumbotron } from "../Components/jumbotron";
 
 export const PricingPage = () => {
   return (
-    <div className="container">
+    <div className="container rounded">
       <Jumbotron
         heading="Information für Privatpatienten"
         text="Es ist bedauerlicherweise immer wieder der Fall, dass private

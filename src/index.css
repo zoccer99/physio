@@ -1,20 +1,33 @@
 .maxwidth540 {
-    max-width: 540px;
+  max-width: 540px;
 }
 
 .w-75 {
-    width: 75%;
+  width: 75%;
 }
 
+.stroke {
+  -webkit-text-stroke: 0.5px black;
+  text-stroke: 2px black;
+}
 
 body {
   /* background-image: url("./Assets/blurry_background.svg"); */
-background: linear-gradient(90deg, hsla(186, 73%, 90%, 1) 0%, hsla(212, 19%, 86%, 1) 48%, hsla(122, 61%, 88%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(186, 73%, 90%, 1) 0%,
+    hsla(212, 19%, 86%, 1) 48%,
+    hsla(122, 61%, 88%, 1) 100%
+  );
   background-size: cover;
   margin: 0;
   height: 100%;
-  font-family: "Roboto";
+}
 
+.fullscreen {
+  height: 100vh; /* Die Höhe des Viewports (100% der Viewport-Höhe) */
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .ccard {
@@ -23,7 +36,7 @@ background: linear-gradient(90deg, hsla(186, 73%, 90%, 1) 0%, hsla(212, 19%, 86%
 
 .fullscreen-container {
   width: 100vw; /* 100% der Viewport-Breite (Browserfenster) */
-  height: 100vh; /* 100% der Viewport-Höhe *//* Hintergrundfarbe des Containers */
+  height: 100vh; /* 100% der Viewport-Höhe */ /* Hintergrundfarbe des Containers */
   /* Hier kannst du zusätzliche Stile für deinen fullscreen-container hinzufügen */
 }
 
@@ -33,133 +46,124 @@ background: linear-gradient(90deg, hsla(186, 73%, 90%, 1) 0%, hsla(212, 19%, 86%
 } */
 
 .box-color {
-  background-color:#fff
+  background-color: #fff;
 }
 
 /* contact2 */
 
+.team-boxed p {
+  color: #7d8285;
+}
 
-  
-  .team-boxed p {
-    color:#7d8285;
-  }
-  
+.team-boxed h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
   .team-boxed h2 {
-    font-weight:bold;
-    margin-bottom:40px;
-    padding-top:40px;
-    color:inherit;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
   }
-  
-  @media (max-width:767px) {
-    .team-boxed h2 {
-      margin-bottom:25px;
-      padding-top:25px;
-      font-size:24px;
-    }
-  }
+}
 
-  
-  .team-boxed .intro {
-    font-size:16px;
-    max-width:500px;
-    margin:0 auto;
-  }
-  
-  .team-boxed .intro p {
-    margin-bottom:0;
-  }
-  
-  .team-boxed .people {
-    padding:50px 0;
-  }
-  
-  .team-boxed .item {
-    text-align:center;
-  }
-  
-  .team-boxed .item .box {
-    text-align:center;
-    padding:30px;
-    background-color:#fff;
-    margin-bottom:30px;
-  }
-  
-  .team-boxed .item .name {
-    font-weight:bold;
-    margin-top:28px;
-    margin-bottom:8px;
-    color:inherit;
-  }
-  
-  .team-boxed .item .title {
-    text-transform:uppercase;
-    font-weight:bold;
-    color:#d0d0d0;
-    letter-spacing:2px;
-    font-size:13px;
-  }
-  
-  .team-boxed .item .description {
-    font-size:15px;
-    margin-top:15px;
-    margin-bottom:20px;
-  }
-  
-  .team-boxed .item img {
-    max-width:160px;
-  }
-  
-  .team-boxed .social {
-    font-size:18px;
-    color:#a2a8ae;
-  }
-  
-  .team-boxed .social a {
-    color:inherit;
-    margin:0 10px;
-    display:inline-block;
-    opacity:0.7;
-  }
-  
-  .team-boxed .social a:hover {
-    opacity:1;
-  }
-  
-  /* Qualifikations */
-  .qualificationCard {
-    max-height: 500px;
-    overflow-y: auto;
-  }
+.team-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
 
-  /* List with bullets */
+.team-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.team-boxed .people {
+  padding: 50px 0;
+}
+
+.team-boxed .item {
+  text-align: center;
+}
+
+.team-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.team-boxed .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.team-boxed .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.team-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+  max-width: 160px;
+}
+
+.team-boxed .social {
+  font-size: 18px;
+  color: #a2a8ae;
+}
+
+.team-boxed .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity: 1;
+}
+
+/* Qualifikations */
+.qualificationCard {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* List with bullets */
 .list-bullets {
-    list-style: none;
+  list-style: none;
 }
 
 .list-bullets li {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .list-bullets li::before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: 2px solid #8fb3f5;
-    display: block;
-    margin-right: 1rem;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #8fb3f5;
+  display: block;
+  margin-right: 1rem;
 }
-
-
 
 li {
-    font-style: italic;
+  font-style: italic;
 }
-
-
-
 
 .primary-color {
   background-color: #87f4b5;
@@ -174,14 +178,33 @@ li {
 }
 
 .primary-gradient {
-  background: linear-gradient(90deg, hsla(145, 83%, 74%, 1) 0%, hsla(204, 77%, 76%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(145, 83%, 74%, 1) 0%,
+    hsla(204, 77%, 76%, 1) 100%
+  );
 }
 .bg-standard {
   background-color: #87f4b5;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .md-center {
-    justify-content: center
+    justify-content: center;
   }
+}
+
+.copy-right-sec {
+  margin-top: 20px;
+  padding: 1.8rem;
+  background: #ffff;
+  color: black;
+  text-align: center;
+}
+.copy-right-sec a {
+  color: black;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
 }

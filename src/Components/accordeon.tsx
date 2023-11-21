@@ -5,7 +5,7 @@ export const Accordeon = () => {
     <div className="container mt-3">
     <Accordion>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Krankengymnastik</Accordion.Header>
+        <Accordion.Header ><div className="h4">Krankengymnastik</div></Accordion.Header>
         <Accordion.Body>
           Krankengymnastik ist eine Therapiemethode, die darauf abzielt, die
           Funktionen des Bewegungsapparates wiederherzustellen und Schmerzen zu
@@ -20,7 +20,7 @@ export const Accordeon = () => {
       </Accordion.Item>
       <Accordion.Item eventKey="1">
         <Accordion.Header>
-          Propriozeptive Neuromuskuläre Fazilitation ( PNF)
+        <div className="h4">Propriozeptive Neuromuskuläre Fazilitation ( PNF) </div>
         </Accordion.Header>
         <Accordion.Body>
           Die Propriozeptive Neuromuskuläre Fazilitation (PNF) ist eine
@@ -31,7 +31,7 @@ export const Accordeon = () => {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
-        <Accordion.Header>Manuelle Therapie</Accordion.Header>
+        <Accordion.Header><div className="h4">Manuelle Therapie</div></Accordion.Header>
         <Accordion.Body>
           Die manuelle Therapie wird eingesetzt, um Funktionsstörungen des
           Bewegungsapparates zu behandeln. Diese können durch falsche Haltung,
@@ -41,7 +41,7 @@ export const Accordeon = () => {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
-        <Accordion.Header>Manuelle Lymphdrainage</Accordion.Header>
+        <Accordion.Header><div className="h4">Manuelle Lymphdrainage</div></Accordion.Header>
         <Accordion.Body>
           Das Lymphsystem ist ein wichtiges Netzwerk im Körper, das in
           Verbindung mit den Blutgefäßen steht. Es ist das Zentrum des
@@ -54,7 +54,7 @@ export const Accordeon = () => {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
-        <Accordion.Header>Klassische Massagen</Accordion.Header>
+        <Accordion.Header><div className="h4">Klassische Massagen</div></Accordion.Header>
         <Accordion.Body>
           Die klassische Massage ist eine weit verbreitete Massageform, bei der
           verschiedene Griffe und Techniken angewendet werden, um ein
@@ -63,14 +63,14 @@ export const Accordeon = () => {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">
-        <Accordion.Header>Eis - Kryotherapie</Accordion.Header>
+        <Accordion.Header><div className="h4">Eis - Kryotherapie</div></Accordion.Header>
         <Accordion.Body>
           Die Anwendung von Eis ist eine Ergänzung zu den nachfolgenden
           Behandlungen. Sie wird bei akuten Schmerzen eingesetzt.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="6">
-        <Accordion.Header>Wärmetherapie</Accordion.Header>
+        <Accordion.Header><div className="h4">Wärmetherapie</div></Accordion.Header>
         <Accordion.Body>
           In der Physiotherapie wird die Wärmetherapie als ergänzende Maßnahme
           betrachtet. Bestehend aus einem Wärmeträger oder einer heißen Rolle,

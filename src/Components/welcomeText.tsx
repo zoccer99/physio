@@ -8,15 +8,17 @@ type welcomeTextProps = {
 
 export const WelcomeText = (props: welcomeTextProps) => {
   return (
+    <div className="fullscreen">
 
-    <div className="px-4 py-5 my-5 text-center">
-    <h1 className="display-5 fw-bold">{props.heading}</h1>
-    <small className="text-muted">{props.smallText}</small>
-    <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4">{props.lead}</p>
-      
+      <div className="px-4 py-5 my-5 text-center text-light ">
+        <h1 className="display-1 fw-bold text-light">{props.heading}</h1>
+        <small className="text-muted display-4">{props.smallText}</small>
+        <div className="col-lg-6 mx-auto">
+          <p className="lead mb-4 display-5">{props.lead}</p>
+
+        </div>
+      </div>
     </div>
-  </div>
 
     /* <div classNameName="container py-4">
       <div classNameName="card shadow">

@@ -10,6 +10,7 @@ import { ContactPage } from './Pages/contactPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ImagePage } from './Pages/imagePage';
 import { AboutPage } from './Pages/aboutPage';
+import { Footer } from './Components/footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/about' Component={AboutPage}/>
         <Route path='/contact' Component={ContactPage}/>
       </Routes>
+      <Footer />
       </BrowserRouter>
     </div>
   );

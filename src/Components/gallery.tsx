@@ -16,13 +16,13 @@ export const Gallery = () => {
     <img
       src={pic1}
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
+      alt="Physioliege"
     />
 
     <img
       src={pic2}
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
+      alt="Physioliege"
     />
   </div>
 
@@ -30,27 +30,23 @@ export const Gallery = () => {
     <img
       src={pic3}
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
+      alt="Physioliege"
     />
 
     <img
       src={pic4}
-      className="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
+      className="w-100 shadow-1-strong rounded mb-4 biggerHover"
+      alt="Physioliege"
     />
   </div>
 
   <div className="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src={selfie}
-      className="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
+    
 
     <img
       src={trampolin}
-      className="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
+      className="w-100 shadow-1-strong rounded mb-4 biggerHover"
+      alt="Physio Fitness"
     />
   </div>
   
