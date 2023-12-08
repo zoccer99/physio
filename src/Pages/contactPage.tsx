@@ -11,8 +11,8 @@ export const ContactPage = () => {
       />
       <Contact
         name="Annett Mraz"
-        address="Physiotherapie Annett Mraz 
-            Münchholzhäuser Str. 22
+        address="Physiotherapie Annett Mraz<br>
+            Münchholzhäuser Str. 22<br>
             35582 Wetzlar"
         telephone="015233786232"
         email="annett.mraz@web.de"

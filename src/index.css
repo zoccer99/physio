@@ -208,3 +208,11 @@ li {
 a {
   text-decoration: none;
 }
+
+.customGreenColor {
+  color: #3b614b;
+}
+
+.customLighterGreenColor {
+  color: #2a9b59;
+}

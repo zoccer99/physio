@@ -20,9 +20,9 @@ export const Gallery = () => {
     />
 
     <img
-      src={pic2}
+      src={waiting}
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Physioliege"
+      alt="Wartezimmer"
     />
   </div>
 
@@ -34,9 +34,9 @@ export const Gallery = () => {
     />
 
     <img
-      src={pic4}
+      src={walking}
       className="w-100 shadow-1-strong rounded mb-4 biggerHover"
-      alt="Physioliege"
+      alt="Walking stepper"
     />
   </div>
 

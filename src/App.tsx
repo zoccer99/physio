@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import Home from './Pages/home';
+
+
 import { Navigation } from './Components/navigation';
 import { ServicePage } from './Pages/servicePage';
 import { PricingPage } from './Pages/pricingPage';
@@ -11,6 +13,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ImagePage } from './Pages/imagePage';
 import { AboutPage } from './Pages/aboutPage';
 import { Footer } from './Components/footer';
+
+
 
 function App() {
   return (
