@@ -4,9 +4,8 @@ import Contact from "../Components/contact";
 
 export const AboutPage = () => {
   return (
-    <div>
-      <About heading="Über mich" />
-      
-    </div>
+    <>
+      <About heading="Über mich" />  
+    </>
   );
 };
