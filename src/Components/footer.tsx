@@ -10,6 +10,6 @@ export const Footer = () => {
           Physiotherapie Annett Mraz
         </div>
       </section>
-    </div>
+    </div>   
   );
 };

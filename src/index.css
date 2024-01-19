@@ -238,3 +238,10 @@ a {
   left: 0;
   right: 0;
 }
+
+
+@media (min-width: 1200px) {
+  .table > :not(caption) > * > * {
+    padding-left: 2rem;
+  }
+}

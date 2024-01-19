@@ -9,7 +9,7 @@ export const Pricing = () => {
           <caption>Preisliste</caption>
           <tbody className="">
             <tr className="">
-              <td>Allgemeine Krankengymnastik</td>
+              <td className="" >Allgemeine Krankengymnastik</td>
               <td>30 Minuten</td>
               <td>37,50 €</td>
             </tr>

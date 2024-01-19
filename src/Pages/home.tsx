@@ -28,7 +28,7 @@ Für weitere Informationen stehe ich Ihnen gern zur Verfügung."
                         Münchholzhäuser Str. 22<br>
                         35582 Wetzlar"
                 telephone="015233786232"
-                email="annett.mraz@web.de"
+                email="physio.mraz@gmail.com"
             />
             <div className="mt-4">
                 <div className="d-flex justify-content-center">
